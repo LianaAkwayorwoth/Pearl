@@ -1,0 +1,21 @@
+.hard{
+    background-color: blue;
+}
+#heading{
+    color: grey;
+}
+ul>li{
+    color: rgb(200,50,80);
+}
+img{
+    border-left: black 5px solid;
+    padding: 50px;
+    margin: 100px;
+    border-top: green 5px solid;
+    border-bottom: red 5px solid;
+    border-radius: 50%;
+    width: 90px;
+}
+div p{
+    background-color: blue;
+}
