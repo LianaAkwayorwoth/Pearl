@@ -10,7 +10,8 @@
     <!--this is a comment in html-->
 
 
-    <script>
+    <script src="index.js"></script>
+        
         // this is a comment in Javascript
         /*
         this is a multiple comment
@@ -32,12 +33,29 @@
 
 const fruits = [['mango', 'avocado', 'peach', 'cherry'],[' watermelon', 'pawpaws','oranges','apples']]
 console.log(fruits[0]);
-console.log(fruits[1][3])
-        
+// console.log(fruits[1][3])
 
 
 
+        function addNumbers(a,b){
+            return a+b
+        }
+        console.log(addNumbers(4,5))
+
+        function multiplyNumber(a,b,c){
+            return a*b*c
+        }
+        console.log(multiplyNumber(10,2,4))
+
+        //method 2 ARROW FUNCTION
+        const subtractNumbers=(number1, number2)=>{
+        return number1-number2
+        }
+        console.log(subtractNumbers(10,4))
     </script>
+    
+    
+
 
 
 
